@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main__box{
+    width: 30%;
+    box-shadow: 0 0 5px gray, inset 0 0 10px black;
+    height: 90vh;
+    border: 1px solid black;
+}
+
+.main__box .box__one{
+    width: 95%;
+    margin-left: 2%;
+    height: 88vh;
+    margin-top: 1vh;
+    border: 1px solid black;
+}
+
+.main__box .box__one .box__two{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.main__box .box__one .box__two span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__box .box__one .box__two span small{
+    font-size: 100%;
+}
+
+.main__box .box__one .box__two span button{
+    width: 20%;
+    padding: 2%;
+    margin-left: 2px;
+}
