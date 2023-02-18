@@ -43,6 +43,8 @@
 
 .main__box .box__one .box__three{
     display: flex;
+    width: 95%;
+    margin-left: 2%;
     flex-direction: column;
 }
 
@@ -57,4 +59,9 @@
     width: 20%;
     padding: 2%;
     margin-left: 2px;
+}
+
+
+.main__box .box__one .box__three span small{
+    font-size: 10px;
 }
